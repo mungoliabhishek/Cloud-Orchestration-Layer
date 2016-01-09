@@ -1,4 +1,4 @@
-Builded a Virtualization Orchestration Layer, using 
+Built a Virtualization Orchestration Layer, using 
 
 KVM (kernel Virtual manager)
 Python Flask Server

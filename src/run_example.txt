@@ -1,0 +1,20 @@
+http://127.0.0.1:5002/vm/create?name=haha&instance_type=1&image_id=1
+
+http://127.0.0.1:5002/vm/query?vmid=101
+
+http://127.0.0.1:5002/vm/destroy?vmid=101
+
+http://127.0.0.1:5002/vm/types
+
+http://127.0.0.1:5002/pm/list
+
+http://127.0.0.1:5002/pm/listvms?pmid=1
+
+http://127.0.0.1:5002/image/list
+
+
+For configuration
+script.sh pm_types.json img_file.json vm_types.json
+
+Further Database becomes persistent
+python cloud_project.py vm_types.json img_file.json
